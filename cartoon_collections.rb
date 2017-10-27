@@ -9,7 +9,7 @@ end
 def summon_captain_planet(array)# code an argument here
   # Your code here
   array.map! do |word|
-    word = word[0].upcase+word[1..-1]+"1"
+    word = word[0].upcase+word[1..-1]+"!"
   end
   array
 end
