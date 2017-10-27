@@ -8,10 +8,10 @@ end
 
 def summon_captain_planet(array)# code an argument here
   # Your code here
-  result = array.map do |word|
+  array.map do |word|
     word = word[0].upcase+word[1..-1]+"1"
   end
-  result
+  array
 end
 
 def long_planeteer_calls# code an argument here
